@@ -1,0 +1,21 @@
+<header class="container wizard">
+    <div class="progress">
+      <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="{{steps}}" aria-valuemin="0" aria-valuemax="100" style="width: {{steps}}%">
+        <span class="sr-only">{{steps}}%</span>
+      </div>
+    </div>
+</header>
+
+<div class="container shopping-page">
+    <div class="tab-content">
+      <div class="shopping-step" percentage="10" icon="'fa-shopping-cart'">
+        <cart-step />
+	    </div>
+      <div class="shopping-step"  percentage="30" icon="'fa-truck'">
+        <shipping-step />
+      </div>
+      <div class="shopping-step"  percentage="50" icon="'fa-eye'">
+        <confirm-step />
+      </div>
+  </div>
+</div>

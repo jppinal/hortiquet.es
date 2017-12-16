@@ -1,0 +1,63 @@
+#contact {
+  padding-top: 0;
+  background-image: url(/assets/images/contact-dark.jpg);
+}
+
+#contact .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact .heading {
+  padding-bottom: 50px;
+}
+
+#contact .form-control {
+  background-color: transparent;
+  border-color: rgba(255,255,255,.3);
+  height: 50px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#contact textarea.form-control {
+  min-height: 180px;
+  resize:none;
+}
+
+#contact .form-group {
+  margin-bottom: 30px;
+}
+
+#contact .contact-info {
+  font-weight: 200;
+}
+
+#contact ul.address {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact .contact-info ul li {
+  margin-bottom: 8px;
+}
+
+#contact .contact-info ul li a {
+  color: #fff;
+}
+
+#contact .btn-submit {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  color: rgba(0,0,0,0.7);
+  background-color: rgba(255,255,255,.4);
+  border: 0;
+  margin-top: 40px;
+}
+
+#contact .btn-submit:hover {
+  color:#ffffff;
+}

@@ -1,0 +1,42 @@
+/**
+ * angular-cookie-law - @version v0.2.2 - @author Palmabit Srl<hello@palmabit.com>
+ */
+.cl-banner {
+  background: #333333;
+  height: auto;
+  min-height: 24px;
+  line-height: 24px;
+  color: #eeeeee;
+  padding: 15px 25px;
+  z-index: 10000;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+.clbanner > #cookies-actions {
+  text-align: right;
+}
+/*
+.cl-banner.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.cl-banner.fixed.bottom {
+  bottom: 0;
+  top: auto;
+}
+*/
+
+.cl-banner .cl-policy {
+  margin-right: 20px;
+}
+
+.cl-banner .cl-policy:hover {
+}

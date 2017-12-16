@@ -1,0 +1,123 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 160px;
+  color: #666;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: 'Leckerli One', cursive;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 40px;
+  font-size: 40px;
+}
+
+h1 img {
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  margin-left: 2px;
+}
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  margin-left: 2px;
+}
+
+p {
+  text-align: justify;
+}
+
+p.text-muted {
+  color: #afafaf;
+}
+
+p.text-muted b {
+  color: #666;
+}
+
+.tiny {
+  font-size: 0.7em;
+}
+
+
+.btn-primary{
+  background-color: #6f961b;
+  color: #ffffff;
+  border-color: #455e0d;
+}
+
+.btn-primary:hover{
+  background-color: #455e0d;
+  color: #ffffff;
+  border-color: #455e0d;
+}
+
+
+ul.nostyle {
+  list-style: none;
+}
+
+#wrap {
+
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #f5f5f5;
+}
+
+.left-control, .right-control {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  z-index: 20;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.left-control{
+  left: 50%;
+}
+.right-control{
+  right: 50%;
+}
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+<div class="row product-images">
+  <div class="col-xs-4 col-sm-2 hidden-xs">
+    <img src="http://cdn.hortiquet.es/assets/images/no-image-1000-750.png" class="img-responsive"/>
+  </div>
+  <%  var i = 0;
+      images.forEach(function(image) {
+        i++;%>
+  <div class="col-xs-6 col-sm-2">
+    <a href="/image?src=<%= image.src %>&title=<%= title %>&c=<%= i %>">
+      <img src="<%= image.src %>" class="img-responsive"/>
+    </a>
+  </div>
+  <% }); %>
+  <div class="col-xs-4 col-sm-2 hidden-xs">
+    <img src="http://cdn.hortiquet.es/assets/images/no-image-1000-750.png" class="img-responsive"/>
+  </div>
+</div>

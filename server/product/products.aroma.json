@@ -1,0 +1,39 @@
+{
+  "title": "Hortiquet AROMA",
+  "name": "hortiquet-aroma",
+  "product": "AROMA",
+  "productName": "HortiQuet AROMA",
+  "productSKU": "HAXxYyZz",
+  "price": 54.95,
+  "taxes": 9.54,
+  "img": "http://cdn.hortiquet.es/assets/images/aroma/hortiquet-aroma-kit.png",
+  "images": [
+    {"src": "http://cdn.hortiquet.es/assets/images/aroma/hortiquet-trio-front.png", "name": "front", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/aroma/hortiquet-aroma.png", "name": "aroma", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/aroma/hortiquet-aroma.png", "name": "aroma", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/aroma/hortiquet-aroma-kit.png", "name": "kit", "thumb": ""}
+  ],
+  "es": {
+    "description": "Aromáticas frescas y listas para condimentar tus platos y bebidas.",
+    "configure": "Crea tu huerto",
+    "contentTitle": "Contenido",
+    "content": [
+      "Basket de madera de (48 cm x 33 cm x 18 cm) + geotextil con tres compartimentos.",
+      "Sustrato + abono natural.",
+      "Trípticos explicativos: germinación, cultivo y cosecha.(Adaptado para los niños).",
+      "Pack de 3 sobres de semillas de aromáticas:"
+    ]
+  },
+  "productSKUs": [
+    { "sku": "HABaPyMn",
+      "shortname": "Menta, Albahaca & Perejil",
+      "img": "http://cdn.hortiquet.es/assets/images/aroma/HABaPyMn.png",
+      "logo": [
+          "http://cdn.hortiquet.es/assets/images/vegetables/basil.png",
+          "http://cdn.hortiquet.es/assets/images/vegetables/spearmint.png",
+          "http://cdn.hortiquet.es/assets/images/vegetables/parsley.png"
+        ],
+      "seeds": ["basil","parsley", "mint"]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Hortiquet ENSALADA",
+  "name": "hortiquet-ensalada",
+  "product": "ENSALADA",
+  "productName": "HortiQuet ENSALADA",
+  "productSKU": "HEXxYyZz",
+  "price": 54.95,
+  "taxes": 9.54,
+  "img": "http://cdn.hortiquet.es/assets/images/ensalada/hortiquet-ensalada-kit.png",
+  "images": [
+    {"src": "http://cdn.hortiquet.es/assets/images/ensalada/hortiquet-uno-front.png", "name": "front", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/ensalada/hortiquet-ensalada.png", "name": "ensalada", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/ensalada/hortiquet-ensalada.png", "name": "ensalada", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/ensalada/hortiquet-ensalada-kit.png", "name": "kit", "thumb": ""}
+  ],
+  "es": {
+    "description": "Disfruta de ricas ensaladas cultivadas por tí.",
+    "configure": "Crea tu huerto",
+    "contentTitle": "Contenido",
+    "content": [
+      "Basket de madera de (48 cm x 33 cm x 18 cm) + geotextil un único compartimento.",
+      "Sustrato + abono natural.",
+      "Trípticos explicativos: germinación, cultivo y cosecha.(Adaptado para los niños).",
+      "Pack de 3 sobres de semillas de lechuga:"
+    ]
+  },
+  "productSKUs": [
+    { "sku": "HEMvSoEs",
+      "shortname": "Solara Amarilla, Escarola & Maravilla de Verano",
+      "img": "http://cdn.hortiquet.es/assets/images/ensalada/HEMvSoEs.png",
+      "logo": [
+          "/assets/images/vegetables/lettuce.png",
+          "/assets/images/vegetables/lettuce.png",
+          "/assets/images/vegetables/lettuce.png"
+        ],
+      "seeds": ["lettuce-maravilla","lettuce-solara", "lettuce-escarola"]
+    }
+  ]
+}

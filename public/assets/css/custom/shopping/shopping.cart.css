@@ -1,0 +1,7 @@
+header.wizard{
+    padding: 10px;
+}
+
+header.wizard .wizard-steps{
+  padding: 5px 5px 5px 0px;
+}

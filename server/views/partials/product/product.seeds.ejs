@@ -1,0 +1,48 @@
+<div>
+<ul class="list-group" role="group">
+  <%  var first = true;
+      productSKUs.forEach(function(product) { %>
+  <li class="list-group-item <%= first ? '' : '' %>">
+    <h4>
+    <a href="#<%= product.sku %>" role="tab" data-toggle="tab" value="<%= product.sku %>">
+      <span>
+        <% product.logo.forEach(function(img) { %>
+          <img src="<%= img %>" />
+        <% }); %>
+        <% var first2 = true
+            product.seedsInfo.forEach(function(seed) { %>
+          <%= first2 ? '' : 'y' %>
+          <%= seed.es.name %>
+        <% first2 = false;
+            }); %>
+      </span>
+    </a>
+  </h4>
+  </li>
+  <%  first = false;
+      }); %>
+</ul>
+</div>
+<div class="tab-content col-xs-10 col-xs-offset-1">
+  <% var first = true;
+     productSKUs.forEach(function(product) {%>
+  <div id="<%= product.sku %>" class="tab-pane fade" role="tabpanel">
+
+    <ul class="" role="">
+        <li><a href="#<%= product.prev %>" aria-controls="prev" data-toggle="tab">Prev</a></li>
+        <li><a href="#<%= product.next %>" aria-controls="next" data-toggle="tab">Next</a></li>
+    </ul>
+
+    <% product.seedsInfo.forEach(function(seed) {%>
+          <div class="thumbnail">
+            <img src="<%= seed.img %>" class="img-responsive" />
+            <h4><%= seed.es.name %></h4>
+            <p class="small"><em><%= seed.genus %> <%= seed.species %></em></p>
+            <p><%= seed.es.details %></p>
+          </div>
+    <% });%>
+
+  </div>
+  <%  first = false;
+      });%>
+</div>

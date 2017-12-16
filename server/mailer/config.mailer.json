@@ -1,0 +1,12 @@
+{
+    "host": "smtp.strato.com",
+    "port": "465",
+    "secure": "true",
+    "auth": {
+        "user": "web@hortiquet.es",
+        "pass": "secret"
+    },
+    "tls":{
+      "rejectUnauthorized": "false"
+    }
+}

@@ -1,0 +1,41 @@
+body {
+  background: #24242a;
+  font-size: 14px;
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-style: normal;
+  color: #666666;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a,
+a:hover {
+  color: #666666;
+}
+
+.legals #legal-notice {
+
+}
+
+.legals {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.legals .content{
+  text-align: justify;
+}
+
+.legals ul.nostyle {
+  list-style: none;
+}

@@ -1,0 +1,153 @@
+[{
+    "name": "tomato",
+    "type": "green",
+    "genus": "Solanum",
+    "species": "Lycopersicum L.",
+    "sku": "To",
+    "img": "/assets/images/vegetables/img/Cherry.jpg",
+    "es": {
+      "name": "Tomate cocktail cherry",
+      "details": [
+        "Tomate tipo cocktail muy productivo. Frutos de color rojo. Se recomienda semillero y trasplantar cuando la plántula tenga 3 - 4 hojas."
+      ]
+    }
+},
+{
+    "name": "carrot",
+    "type": "green",
+    "genus": "Daucus",
+    "species": "carota L.",
+    "sku": "Ca",
+    "img": "/assets/images/vegetables/img/Carrot.jpg",
+    "es": {
+      "name": "Zanahoria Nantesa",
+      "details": [
+        "Pertenece a la familia de las umbelíferas, también denominadas apiáceas. Es la hortaliza más importante y de mayor consumo. Se siembra todo el año, con preferencia de Febrero-Mayo."
+      ]
+    }
+},
+{
+    "name": "pepper",
+    "type": "green",
+    "genus": "Capsicum",
+    "species": "annuum",
+    "sku": "Pp",
+    "img": "/assets/images/vegetables/img/Pepper.jpg",
+    "es": {
+      "name": "Pimiento padron",
+      "details": [
+        "Variedad típica de Galicia. La planta tiene una altura de 70 a 80 cms. con hojas pequeñas de color verde, con fruto triangular y punta roma. Se siembra de Enero a Mayo y la recolección a partir de Junio-Julio, prolongándose hasta octubre."
+      ]
+    }
+},
+{
+    "name": "beans",
+    "type": "green",
+    "genus": "Phaseolus",
+    "species": "vulgaris var. Nassau",
+    "sku": "Bn",
+    "img": "/assets/images/vegetables/img/Beans.jpg",
+    "es": {
+      "name": "Judía enana Nassau",
+      "details": [
+        "La judia enana pertenece a la familia de las leguminosas y se recomienda cultivarlas mediante siembra directa al no soportar bien el trasplante. Se trata de una judia precoz de vainas planas y verdes. Alcanza una altura de 50 cm lo que la hace perfecta para cultivar en casa. La recolección puede realizarse 50 días después de la siembra."
+      ]
+    }
+},
+{
+    "name": "lettuce-maravilla",
+    "type": "green",
+    "genus": "Lactuca",
+    "species": "sativa, variedad Capitata",
+    "sku": "Mv",
+    "img": "/assets/images/vegetables/img/LettuceMaVe.jpg",
+    "es": {
+      "name": "Lechuga Maravilla de Verano",
+      "details": [
+        "Mata de color verde de hojas onduladas con pigmentación vinosa. Muy resistente al calor. Puede sembrarse todo el año con preferencia de Marzo a Julio."
+      ]
+    }
+},
+{
+    "name": "lettuce-solara",
+    "type": "green",
+    "genus": "Lactuca",
+    "species": "sativa, variedad Batavia",
+    "sku": "So",
+    "img": "/assets/images/vegetables/img/LettuceSolara.jpg",
+    "es": {
+      "name": "Lechuga Solara Amarilla",
+      "details": [
+        "Lechuga amarilla de cogollo voluminoso, adecuado para cultivar al aire libre e invernadero y en cultivo estival. Es muy resistente al espigado. Puede sembrarse todo el año aunque prefiere de Enero a Julio."
+      ]
+    }
+},
+{
+    "name": "lettuce-escarola",
+    "type": "green",
+    "genus": "Cichorium",
+    "species": "endivia",
+    "sku": "Es",
+    "img": "/assets/images/vegetables/img/LettuceEscarola.jpg",
+    "es": {
+      "name": "Escarola",
+      "details": [
+        "Planta de mediano porte y abundantes hojas muy finas y rizadas utilizada en ensaladas. Forman una mata compacta. Se siembra de Mayo a Septiembre"
+      ]
+    }
+},
+{
+  "name": "basil",
+  "type": "aromatic",
+  "genus": "Ocimun",
+  "species": "basilicum",
+  "sku": "Ba",
+  "img": "/assets/images/vegetables/img/Basil.jpg",
+  "es": {
+    "name": "Albahaca común",
+    "details": [
+      "Variedad de hoja larga, verde muy aromática de 50-60 cm de altura. Muy productiva, especialmente indicada para consumo fresco. Siembra directa de febrero a junio o todo el año en interior."
+    ]
+  }
+},
+{
+  "name": "parsley",
+  "type": "aromatic",
+  "genus": "Petroselinum",
+  "species": "sativum",
+  "sku": "Pa",
+  "img": "/assets/images/vegetables/img/Parsley.jpg",
+  "es": {
+    "name": "Perejil común",
+    "details": [
+      "Planta de origen mediterráneo, de tallos erguidos y hojas de color verde oscuro y puede llegar a medir 20 cm de altura. Muy aromática y de acentuado sabor."
+    ]
+  }
+},
+{
+  "name": "spearmint",
+  "type": "aromatic",
+  "genus": "Mentha",
+  "species": "spicata",
+  "sku": "Sm",
+  "es": {
+    "name": "Hierba buena",
+    "details": [
+      "Planta aromática con una altura entre 40-50 cm. Se puede utilizar como condimento en cocina, té, mojitos y uso medicinal."
+    ]
+  }
+},
+  {
+    "name": "mint",
+    "type": "aromatic",
+    "genus": "Mentha",
+    "species": "piperita",
+    "sku": "Mi",
+    "img": "/assets/images/vegetables/img/Mint.jpg",
+    "es": {
+      "name": "Menta",
+      "details": [
+        "Planta aromática con una altura entre 40-50 cm. Se puede utilizar como condimento en cocina, té, mojitos y uso medicinal."
+      ]
+    }
+}]

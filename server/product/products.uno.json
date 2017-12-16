@@ -1,0 +1,63 @@
+{
+  "title": "Hortiquet UNO",
+  "name": "hortiquet-uno",
+  "product": "UNO",
+  "productName": "HortiQuet UNO",
+  "productSKU": "H1Xx0000",
+  "price": 44.95,
+  "taxes": 7.80,
+  "img": "http://cdn.hortiquet.es/assets/images/uno/hortiquet-uno-kit.png",
+  "images": [
+    {"src": "http://cdn.hortiquet.es/assets/images/uno/hortiquet-uno-front.png", "name": "front", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/uno/hortiquet-uno-sustrato.png", "name": "sustrato", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/uno/hortiquet-uno-triptico.png", "name": "triptico", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/uno/hortiquet-uno-kit.png", "name": "kit", "thumb": ""}
+  ],
+  "es": {
+    "description": "Cultiva tu hortaliza preferida (zanahoria, tomates cherry, pimientos de padrón o judías)",
+    "configure": "Crea tu huerto",
+    "contentTitle": "Contenido",
+    "content": [
+      "Basket de madera de (48 cm x 33 cm x 18 cm) + geotextil con un único compartimento.",
+      "Sustrato + abono natural.",
+      "Tríticos explicativos: germinación, cultivo y cosecha.(Adaptado para los niños).",
+      "Pack de 1 sobre de semillas:"
+    ]
+  },
+  "productSKUs": [
+    { "sku": "H1Ca0000",
+      "shortname": "Zanahorias",
+      "img": "http://cdn.hortiquet.es/assets/images/uno/H1Ca0000.png",
+      "logo": [
+          "/assets/images/vegetables/carrot.png"
+        ],
+      "seeds": ["carrot"]
+    },
+    { "sku": "H1To0000",
+      "img": "http://cdn.hortiquet.es/assets/images/uno/H1To0000.png",
+      "shortname": "Tomates Cherry",
+      "logo": [
+          "/assets/images/vegetables/tomato.png"
+        ],
+      "seeds": ["tomato"]
+    },
+    { "sku": "H1Pp0000",
+      "img": "http://cdn.hortiquet.es/assets/images/uno/H1Pp0000.png",
+      "shortname": "Pimientos de padrón",
+      "logo": [
+          "/assets/images/vegetables/carrot.png",
+          "/assets/images/vegetables/zucchini.png"
+        ],
+      "seeds": ["pepper"]
+    },
+    { "sku": "H1Bn0000",
+      "img": "http://cdn.hortiquet.es/assets/images/uno/H1Bn0000.png",
+      "shortname": "Judias",
+      "logo": [
+          "/assets/images/vegetables/tomato.png",
+          "/assets/images/vegetables/pepper.png"
+        ],
+      "seeds": ["beans"]
+    }
+  ]
+}

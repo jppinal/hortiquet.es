@@ -1,0 +1,12 @@
+<div class="product-price">
+  <h3><%= price %></h3>
+  IVA incl.
+</div>
+
+<div class="btn-group" role="group">
+  <button type="button" class="btn btn-default"><i class="fa fa-times"></i> Cancelar</button>
+  <button type="button" class="btn btn-danger" ng-click="addtoCart({sku: '<%= product.sku %>', name: '<%= title %>', skushortname: '<%= product.shortname %>', img: '<%= product.img %>' , price: <%= price %>, taxes: <%= taxes %>, description: '<%= es.description %>', quantity: 1})">
+    <i class="fa fa-shopping-cart"></i>
+    Añadir al carrito
+  </button>
+</div>

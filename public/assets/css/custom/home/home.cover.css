@@ -1,0 +1,62 @@
+#cover {
+  overflow: hidden;
+  position: relative;
+  font-family: 'Leckerli One', cursive;
+}
+
+#cover .item {
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2037px;
+}
+
+#cover .active {
+  opacity: 1;
+}
+#cover .active.left,
+#cover .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+#cover .next.left,
+#cover .prev.right {
+  opacity: 1;
+}
+
+
+#cover .caption {
+  position: absolute;
+  top: 50%;
+  margin-top: -104px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+#cover .caption h1{
+  font-size: 3em;
+  font-weight: lighter;
+  -webkit-animation: bounceIn 2000ms 1;
+  animation: bounceIn 2000ms 1;
+}
+
+#cover .fa-angle-down {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  color: #fff;
+  display: inline-block;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  line-height: 24px;
+  z-index: 999;
+  -webkit-animation: bounce 3000ms infinite;
+  animation: bounce 3000ms infinite;
+}

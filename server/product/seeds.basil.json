@@ -1,0 +1,13 @@
+{
+  "name": "basil",
+  "type": "aromatic",
+  "genus": "Ocimun",
+  "species": "basilicum",
+  "sku": "Ba",
+  "es": {
+    "name": "Albahaca común",
+    "details": [
+      "Variedad de hoja larga, verde muy aromática de 50-60 cm de altura. Muy productiva, especialmente indicada para consumo fresco. Siembra directa de febrero a junio o todo el año en interior."
+    ]
+  }
+}

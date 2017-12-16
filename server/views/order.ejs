@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="es">
+<head>
+
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="umvelta">
+
+    <title></title>
+
+    <%- include partials/baseCSS.ejs %>
+    <link type="text/css" rel="stylesheet" href="http://cdn.hortiquet.es/assets/css/custom/order.min.css">
+
+</head>
+<body ng-app="hortiquet">
+
+<div ng-controller="OrderController">
+<%- include partials/shopping/shopping.navbar.ejs %>
+<%- include partials/order/order.created.ejs %>
+</div>
+
+<footer id="footer">
+  <%- include partials/footer.top.ejs %>
+  <%- include partials/footer.bottom.ejs %>
+</footer>
+
+<%- include partials/baseJS.ejs %>
+</body>
+</html>

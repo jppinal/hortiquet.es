@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="es">
+<head>
+
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="hortiquet, hortique, hotiquet, huerto, terraza, jardin, casa, hortalizas, aromaticas, tomate, lechuga, zanahoria, judias, albahaca, menta, perejil">
+    <meta name="description" content="Hortiquet, un huerto en tu terraza">
+    <meta name="author" content="umvelta">
+    <meta name="google-site-verification" content="ZEYcMP1PDLZjg8xAPL4YJbVhWJA8fkUJncndQAf_pko" />
+
+    <link rel="alternate" hreflang="es-es" href="http://www.hortiquet.es">
+
+    <title><%= title %></title>
+
+    <%- include partials/baseCSS.ejs %>
+    <link type="text/css" rel="stylesheet" href="http://cdn.hortiquet.es/assets/css/custom/products.min.css">
+
+    <% productSKUs.forEach(function(product) { %>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": "<%= productName %> - <%= product.shortname %>",
+      "image": "http://www.hortiquet.es<%= product.img %>",
+      "description": "<%= es.description %> <%= product.shortname %>.",
+      "sku": "<%= product.sku %>",
+      "brand": {
+        "name": "HortiQuet"
+      }
+    }
+    </script>
+    <% }); %>
+
+</head>
+<body ng-app="hortiquet" id="top">
+
+<div ng-controller="ProductsController">
+<%- include partials/product/product.navbar.ejs %>
+
+<header id="header"></header>
+
+<div class="container">
+  <div class="slicked">
+    <% productSKUs.forEach(function(product) { %>
+    <div><%- include partials/product/product.info.ejs %></div>
+    <% }); %>
+  </div>
+</div>
+
+<% seeds.forEach(function(seed) { %>
+    <%- include partials/product/product.modal-seed.ejs%>
+<% }); %>
+
+<%- include partials/product/product.images.ejs %>
+</div>
+
+<footer id="footer">
+  <%- include partials/footer.top.ejs %>
+  <%- include partials/footer.bottom.ejs %>
+</footer>
+
+<%- include partials/baseJS.ejs %>
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/hammer.js"></script>
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/slick.min.js"></script>
+<!-- Custom Javascript -->
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/custom/products.min.js"></script>
+</body>
+</html>

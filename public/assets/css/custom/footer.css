@@ -1,0 +1,86 @@
+
+#footer {
+  color:#fff;
+  background: #24242a;
+}
+
+#footer .footer-top {
+  position: relative;
+  padding:30px 0px 0px;
+  background: #24242a;
+}
+
+#footer .footer-logo {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#footer .footer-logo a {
+  font-size: 20px;
+  color: #fff;
+}
+
+#footer .footer-logo a img {
+  height: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 5px;
+}
+
+#footer .footer-bottom,
+#footer .footer-bottom a {
+  font-size: 12px;
+  color: #ffffff;
+  background: #24242a;
+}
+
+#footer .footer-bottom a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+#footer .social-icons {
+  margin-top: 15px;
+}
+
+#footer .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .social-icons ul li a {
+  background-color: rgba(0,0,0,.2);
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+#footer .social-icons ul li a:hover {
+  color: #fff
+}
+
+#footer .social-icons ul li a.envelope:hover {
+  background-color: #CECB26;
+}
+
+#footer .social-icons ul li a.facebook:hover {
+  background-color: #3b5999;
+}
+#footer .social-icons ul li a.twitter:hover {
+  background-color: #2ac6f7;
+}
+#footer .social-icons ul li a.dribbble:hover {
+  background-color: #ff5b92;
+}
+#footer .social-icons ul li a.linkedin:hover {
+  background-color: #036dc0;
+}
+#footer .social-icons ul li a.tumblr:hover {
+  background-color: #ff6b00;
+}
+#footer .social-icons ul li a.instagram:hover {
+  background-color: #036dc0;
+}
+#footer .social-icons ul li a.google-plus:hover {
+  background-color: #b60505;
+}

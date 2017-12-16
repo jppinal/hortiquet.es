@@ -1,0 +1,102 @@
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-left li a ,
+ 	.navbar-right li a {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	.social-icons ul li {
+		margin-bottom: 10px;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+	body {
+		font-size: 20px;
+	}
+	#home-slider .caption h1 {
+		font-size: 40px;
+	}
+	#home-slider .caption {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+	.caption .btn-start {
+		font-size: 12px;
+		padding: 10px 30px;
+	}
+	.navbar-brand {
+		padding: 0 15px 15px;
+	}
+	.navbar-toggle {
+	  border:1px solid #fff;
+	}
+
+	.navbar-toggle .icon-bar {
+	  background-color: #fff;
+	}
+  .navbar-left li a ,
+	.navbar-right li a {
+		font-size: 13px;
+		padding-bottom: 8px;
+		padding-top: 10px;
+	}
+
+	/*services*/
+	section {
+		padding: 45px 0;
+	}
+	.heading {
+
+		padding-bottom: 45px;
+	}
+	.heading h2 {
+
+	}
+	.team-member {
+		margin-bottom: 50px;
+	}
+	.team-members .col-sm-3 {
+		width: 50%;
+		float: left;
+	}
+	.social-icons ul li a {
+		font-size: 14px;
+		height: 30px;
+		line-height: 30px;
+		width: 30px;
+	}
+	.count .col-xs-6 {
+		margin-bottom: 35px;
+	}
+	.single-table{
+		margin-bottom: 40px;
+		padding: 20px;
+	}
+	#footer .footer-bottom {
+		text-align: center;
+	}
+	.footer-bottom p.pull-right {
+		float: none !important;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+	.team-members .col-sm-3 {
+		width:100%;
+		float: none;
+	}
+}

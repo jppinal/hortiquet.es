@@ -1,0 +1,83 @@
+{
+  "title": "Hortiquet DUO",
+  "name": "hortiquet-duo",
+  "product": "DUO",
+  "productName": "HortiQuet DUO",
+  "productSKU": "H2XxYy00",
+  "price": 49.95,
+  "taxes": 8.67,
+  "img": "http://cdn.hortiquet.es/assets/images/duo/hortiquet-duo-kit.png",
+  "images": [
+    {"src": "http://cdn.hortiquet.es/assets/images/duo/hortiquet-duo-front.png", "name": "front", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/duo/hortiquet-duo-ToLe.png", "name": "ToLe", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/duo/hortiquet-duo-ZcPp.png", "name": "ZcPp", "thumb": ""},
+    {"src": "http://cdn.hortiquet.es/assets/images/duo/hortiquet-duo-kit.png", "name": "kit", "thumb": ""}
+  ],
+  "es": {
+    "description": "Ideal para combinar dos variedades de hortalizas.",
+    "configure": "Crea tu huerto",
+    "contentTitle": "Contenido",
+    "content": [
+      "Basket de madera de (48 cm x 33 cm x 18 cm) + geotextil con dos compartimentos.",
+      "Sustrato + abono natural.",
+      "Trípticos explicativos: germinación, cultivo y cosecha.(Adaptado para los niños).",
+      "Pack de 2 sobres de semillas:"
+    ]
+  },
+  "productSKUs": [
+    { "sku": "H2CaTo00",
+      "shortname": "Tomate & Zanahoria",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2CaTo00.png",
+      "logo": [
+          "/assets/images/vegetables/carrot.png",
+          "/assets/images/vegetables/tomato.png"
+        ],
+      "seeds": ["carrot","tomato"]
+    },
+    { "sku": "H2CaPp00",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2CaPp00.png",
+      "shortname": "Pimiento & Zanahoria",
+      "logo": [
+          "/assets/images/vegetables/carrot.png",
+          "/assets/images/vegetables/pepper.png"
+        ],
+      "seeds": ["carrot","pepper"]
+    },
+    { "sku": "H2BnCa00",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2BnCa00.png",
+      "shortname": "Judias & Zanahoria",
+      "logo": [
+          "/assets/images/vegetables/carrot.png",
+          "/assets/images/vegetables/beans.png"
+        ],
+      "seeds": ["carrot","beans"]
+    },
+    { "sku": "H2BnPp00",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2BnPp00.png",
+      "shortname": "Judias & Pimiento",
+      "logo": [
+          "/assets/images/vegetables/tomato.png",
+          "/assets/images/vegetables/pepper.png"
+        ],
+      "seeds": ["beans","pepper"]
+    },
+    { "sku": "H2BnTo00",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2BnTo00.png",
+      "shortname": "Judias & Tomate",
+      "logo": [
+          "/assets/images/vegetables/tomato.png",
+          "/assets/images/vegetables/beans.png"
+        ],
+      "seeds": ["beans","tomato"]
+    },
+    { "sku": "H2PpTo00",
+      "img": "http://cdn.hortiquet.es/assets/images/duo/H2PpTo00.png",
+      "shortname": "Pimiento & Tomate",
+      "logo": [
+          "/assets/images/vegetables/pepper.png",
+          "/assets/images/vegetables/beans.png"
+        ],
+      "seeds": ["tomato","pepper"]
+    }
+  ]
+}

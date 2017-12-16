@@ -1,0 +1,23 @@
+#quote-ines {
+  background-image: url(/assets/images/quote-ines-dark.jpg);
+  padding: 60px 0;
+}
+
+#quote-ines .about-info {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+#quote-ines .about-info .fa{
+  color: #6ea100;
+}
+
+#quote-ines .about-info p{
+  font-style: italic;
+}
+
+#quote-ines .about-info small{
+  display: block;
+  text-align: right;
+  color: #6ea100;
+}

@@ -1,0 +1,111 @@
+{
+  "country": "ES",
+  "regions": [
+    {"name": "Castilla La Mancha",
+      "provinces": [
+        {"name": "Albacete" , "postalcode": "02" },
+        {"name": "Ciudad Real" , "postalcode": "13" },
+        {"name": "Toledo" , "postalcode": "45" },
+        {"name": "Cuenca" , "postalcode": "16" },
+        {"name": "Guadalajara" , "postalcode": "19" }
+      ]},
+    {"name": "Andalucia",
+      "provinces": [
+        {"name": "Granada" , "postalcode": "18" },
+        {"name": "Cordoba" , "postalcode": "14" },
+        {"name": "Jaen" , "postalcode": "23" },
+        {"name": "Sevilla" , "postalcode": "41" },
+        {"name": "Almeria" , "postalcode": "04" },
+        {"name": "Malaga" , "postalcode": "29" },
+        {"name": "Cadiz" , "postalcode": "11" },
+        {"name": "Huelva" , "postalcode": "21" }
+        ]},
+    {"name": "Extremadura",
+      "provinces": [
+        {"name": "Badajoz" , "postalcode": "06" },
+        {"name": "Caceres" , "postalcode": "10" }
+      ]},
+    {"name": "Madrid",
+      "provinces": [
+        {"name": "Madrid" , "postalcode": "28" }
+      ]},
+    {"name": "Castilla León",
+      "provinces": [
+        {"name": "Leon" , "postalcode": "24" },
+        {"name": "Ávila" , "postalcode": "05" },
+        {"name": "Palencia" , "postalcode": "34" },
+        {"name": "Salamanca" , "postalcode": "37" },
+        {"name": "Zamora" , "postalcode": "50" },
+        {"name": "Segovia" , "postalcode": "40" },
+        {"name": "Burgos" , "postalcode": "09" },
+        {"name": "Soria" , "postalcode": "42" },
+        {"name": "Valladolid" , "postalcode": "47" }
+      ]},
+    {"name": "Galicia",
+      "provinces": [
+        {"name": "Lugo" , "postalcode": "27" },
+        {"name": "Ourense" , "postalcode": "32" },
+        {"name": "A Coruna" , "postalcode": "15" },
+        {"name": "Pontevedra" , "postalcode": "36" }
+      ]},
+    {"name": "Principado de Asturias",
+      "provinces": [
+        {"name": "Asturias" , "postalcode": "33" }
+      ]},
+    {"name": "Cantabria",
+      "provinces": [
+        {"name": "Cantabria" , "postalcode": "39" }
+      ]},
+    {"name": "Euskalherria",
+      "provinces": [
+        {"name": "Bizkaia" , "postalcode": "48" },
+        {"name": "Araba" , "postalcode": "01" },
+        {"name": "Gipuzkoa" , "postalcode": "20" }
+      ]},
+    {"name": "Navarra",
+      "provinces": [
+        {"name": "Navarra" , "postalcode": "31" }
+      ]},
+    {"name": "La Rioja",
+      "provinces": [
+        {"name": "La Rioja" , "postalcode": "26" }
+      ]},
+    {"name": "Aragón",
+      "provinces": [
+        {"name": "Huesca" , "postalcode": "22" },
+        {"name": "Zaragoza" , "postalcode": "50" },
+        {"name": "Teruel" , "postalcode": "44" }
+      ]},
+    {"name": "Catalunya",
+      "provinces": [
+        {"name": "Tarragona" , "postalcode": "43" },
+        {"name": "Barcelona" , "postalcode": "08" },
+        {"name": "LLeida" , "postalcode": "25" },
+        {"name": "Girona" , "postalcode": "17" }
+      ]},
+    {"name": "Comunitat Valenciana",
+      "provinces": [
+        {"name": "Castellon de la Plana" , "postalcode": "12" },
+        {"name": "Valencia - València" , "postalcode": "46" },
+        {"name": "Alicante - Alacant" , "postalcode": "03" }
+        ]},
+    {"name": "Murcia",
+      "provinces": [
+        {"name": "Murcia" , "postalcode": "30" }
+        ]},
+    {"name": "Ceuta y Melilla",
+      "provinces": [
+        {"name": "Ceuta" , "postalcode": "51" },
+        {"name": "Melilla" , "postalcode": "52" }
+      ]},
+    {"name": "Illes Balears",
+      "provinces": [
+        {"name": "Illes Balears" , "postalcode": "07" }
+        ]},
+    {"name": "Islas Canarias",
+      "provinces": [
+        {"name": "Santa Cruz de Tenerife" , "postalcode": "38" },
+        {"name": "Las Palmas" , "postalcode": "35" }
+      ]}
+  ]
+}

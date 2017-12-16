@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="es">
+<head>
+
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="umvelta">
+
+    <title>Hortiquet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <!-- Xternal CSS -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <!--<link type="text/css" rel="stylesheet" href="/assets/css/lightbox.css">-->
+    <link type="text/css" rel="stylesheet" href="/assets/css/angular-cookie-law.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/backend/base.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/backend/traffic.css">
+
+</head>
+<body  ng-app="hortiquetBackend">
+
+<div ng-controller="TrafficController">
+
+<div class="container">
+
+<div class="row" style="text-align: center">
+  <form class="form-inline" method="get" action="/backend/traffic">
+    <div class="form-group">
+      <label for="day">Day</label>
+      <input type="text" class="form-control" id="day" name="day" placeholder="31">
+    </div>
+    <div class="form-group">
+      <label for="month">Month</label>
+      <input type="text" class="form-control" id="month" name="month" placeholder="11">
+    </div>
+    <div class="form-group">
+      <label for="year">Year</label>
+      <input type="text" class="form-control" id="year" name="year" placeholder="2099">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+<div class="row" style="text-align: center">
+  <h1 style="margin: 30px;"> <%= date.toLocaleDateString() %> </h1>
+  <canvas id="daily-chart" class="" style="width: 500px; height: 250px;" width="500px" height="250px"></canvas>
+</div>
+
+<div class="row" style="text-align: center;">
+  <div style="padding: 30px;">
+    <div id="googleMap" style="height:380px;"></div>
+  </div>
+</div>
+
+<div class="row" style="text-align: center">
+  <% if(weekData[0]) { %>
+    <% weekData[0].traffic.forEach(function(d) { %>
+      <div class="col-sm-3">
+        <div class="card panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <% d.ip.split(",").forEach(function(ip) { %>
+                <ip address="'<%= ip %>'"><%= ip %></ip>
+              <% }); %>
+            </div>
+          </div>
+
+          <table class="table">
+            <tbody>
+            <% d.data.forEach(function(t) { %>
+            <tr>
+            	<td>
+                <div class="col-sm-4">
+                  <small><%= t.date.toTimeString(); %></small>
+                </div>
+                <div class="col-sm-8">
+                  <%= t.page %>
+                  <%= t.data %>
+                </div>
+              </td>
+            </tr>
+          <% }); %>
+        </tbody>
+        </table>
+        </div>
+      </div>
+    <% }); %>
+  <% } %>
+</div>
+</div>
+
+<!-- JQuery JavaScript -->
+<script type="text/javascript" src="/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.inview.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.countTo.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<!-- Angular JavaScript -->
+<script type="text/javascript" src="/assets/js/angular/angular.min.js"></script>
+<script type="text/javascript" src="/assets/js/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="/assets/js/angular-resource/angular-resource.min.js"></script>
+
+<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+<!-- MVC -->
+<script type="text/javascript" src="/backend/traffic/module.traffic.client.js"></script>
+<script type="text/javascript" src="/backend/traffic/controller.traffic.client.js"></script>
+<script type="text/javascript" src="/backend/traffic/directive.traffic.client.js"></script>
+<script type="text/javascript" src="/backend/traffic/services.traffic.client.js"></script>
+<script type="text/javascript" src="/backend/traffic/ip/directive.ip.client.js"></script>
+<script type="text/javascript" src="/assets/js/Chart.min.js"></script>
+<script type="text/javascript" src="/backend/application.js"></script>
+<!-- App JavaScript -->
+<script type="text/javascript">
+//chart
+
+var ctx = document.getElementById("daily-chart").getContext("2d");
+var data = <%- JSON.stringify(weekChart) %>;
+
+var forestChart = new Chart(ctx).Bar(data, {
+});
+</script>
+<script>
+</script>
+
+</body>
+</html>

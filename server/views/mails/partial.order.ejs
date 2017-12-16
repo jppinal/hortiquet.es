@@ -1,0 +1,67 @@
+
+<h2 style="padding: 0px; margin: 0px;">Pedido</h2>
+<small>ID: <%= orderId %></small>
+
+<table>
+<tr style="">
+  <th style="border-bottom: 1px solid #000000;padding: 10px;" width="">ITEM</th>
+  <th style="border-bottom: 1px solid #000000;padding: 10px;" width="">DESCRIPCIÓN</th>
+  <th style="border-bottom: 1px solid #000000;padding: 10px;" width="">PRECIO</th>
+  <th style="border-bottom: 1px solid #000000;padding: 10px;" width="">UD</th>
+  <th style="border-bottom: 1px solid #000000;padding: 10px;" width="">IMPORTE</th>
+</tr>
+
+<% items.forEach(function(item){ %>
+<tr>
+  <td style="border-bottom: 1px solid #000000;padding: 10px;"><img src="http://192.168.0.151:8080/<%= item.img %>" width="200px"/><br/><small><%= item.sku %></small></td>
+  <td style="border-bottom: 1px solid #000000;padding: 10px;"><b><%= item.name %></b><br/><%= item.skushortname %></td>
+  <td style="border-bottom: 1px solid #000000;padding: 10px;"><%= item.net %> €</td>
+  <td style="border-bottom: 1px solid #000000;padding: 10px;"><%= item.quantity %></td>
+  <td style="border-bottom: 1px solid #000000;padding: 10px;"><%= item.total %> €</td>
+</tr>
+<% }); %>
+
+<tr>
+  <td colspan="4" style="text-align: right;padding: 5px;">Subtotal</td>
+  <td style="padding: 5px;"><%= amount.subtotal %> €</td>
+</tr>
+
+<tr>
+  <td colspan="4" style="text-align: right;padding: 5px;">IVA 21%</td>
+  <td style="padding: 5px;"><%= amount.taxes %> €</td>
+</tr>
+
+<tr>
+  <td colspan="4" style="text-align: right;padding: 5px;">Gastos de envío <small>(IVA incluido)</small></td>
+  <td style="padding: 5px;"><%= amount.shipping %> €</td>
+</tr>
+
+<tr>
+  <td colspan="4" style="text-align: right;padding: 5px;"><b>Pagado</b></td>
+  <td style="padding: 5px;"><b><%= amount.total %> €</b></td>
+</tr>
+
+</table>
+
+<h2>Dirección de Envío</h2>
+<table>
+  <tr>
+    <td style="text-align: right;padding: 5px; vertical-align: top;"><small>Nombre del destinatario</small></td>
+    <td style="text-align: left;padding: 5px;"><b><%= shipping.name.first %> <%= shipping.name.last %></b></td>
+  </tr>
+  <tr>
+    <td style="text-align: right;padding: 5px; vertical-align: top;"><small>Dirección</small></td>
+    <td style="text-align: left;padding: 5px;">
+      <b><%= shipping.address.line1 %> <%= shipping.address.line2 %></b><br />
+      <b><%= shipping.address.postalCode %> - <%= shipping.address.city %></b><br />
+      <b>(<%= shipping.address.province %>)</b>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: right;padding: 5px; vertical-align: top;"><small>Teléfono de contacto</small></td>
+    <td style="text-align: left;padding: 5px;">
+      <b><%= shipping.contact.phone %></b><br />
+      <small>La empresa responsable del envío enviará un SMS al número de teléfono indicado.</small>
+    </td>
+  </tr>
+<table>

@@ -1,0 +1,25 @@
+<div class="container">
+
+<h2>Elige tu <hortiquet>HortiQuet</hortiquet></h2>
+
+<% products.forEach(function(product) { %>
+<div class="product col-sm-6 col-md-3">
+  <a href="/product?hortiquet=<%= product.product %>">
+  <div class="row" type="button">
+    <div class="product-header">
+      <img src="<%= product.img %>" class="img-responsive"/>
+    </div>
+
+    <div class="product-info">
+        <h3 class=""><hortiquet>HortiQuet</hortiquet> <%= product.product %></h3>
+        <div class="description"><%= product.es.description %></div>
+        <div class="product-price">
+            <h4><%= product.price %> €</h4>
+        </div>
+    </div>
+  </div>
+  </a>
+</div>
+<% }); %>
+
+</div>

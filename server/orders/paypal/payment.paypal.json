@@ -1,0 +1,23 @@
+{
+    "intent": "sale",
+    "payer": {
+        "payment_method": "paypal"
+    },
+    "redirect_urls": {},
+    "transactions": [{
+      "amount": {
+        "total": 0.00,
+        "currency": "EUR",
+        "details": {
+          "tax": 0.00,
+          "shipping": 0.00,
+          "subtotal": 0.00
+        }
+      },
+      "description": "",
+      "item_list": {
+        "items": [],
+        "shipping_address": {}
+      }
+    }]
+}

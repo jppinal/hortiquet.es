@@ -1,0 +1,17 @@
+.font-hortiquet {
+  font-family: 'Leckerli One', cursive;
+  font-weight: lighter;
+}
+
+.font-hortiquet.white {
+  color: #ffffff;
+}
+
+.font-hortiquet img{
+  height: 1em;
+}
+
+.product-line {
+  font-weight: lighter;
+  color: #8cbe20;
+}

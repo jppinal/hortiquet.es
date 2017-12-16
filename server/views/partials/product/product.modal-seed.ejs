@@ -1,0 +1,24 @@
+<div id="<%= seed.name%>" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><%= seed.es.name%></h4>
+        <em><%= seed.genus %> <%= seed.species %></em>
+      </div>
+
+      <div class="modal-body">
+        <img src="<%= seed.img %>" class="img-responsive">
+        <% seed.es.details.forEach( function(detail) { %>
+        <p><%= detail %></p>
+        <% }); %>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Volver</button>
+      </div>
+
+    </div>
+  </div>
+</div>

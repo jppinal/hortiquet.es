@@ -1,0 +1,53 @@
+body {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p { position:absolute; top:3px; right:28px; color:#555; font:bold 13px/1 sans-serif;}
+
+.zoom {
+  display:inline-block;
+  position: relative;
+}
+
+.zoom:after {
+  content:'';
+  display:block;
+  width:33px;
+  height:33px;
+  position:absolute;
+  top:0;
+  right:0;
+  background:url(/assets/images/zoom.png);
+}
+
+.zoom img {
+  display: block;
+}
+
+.zoom {
+  padding: 5px;
+  border: 1px solid #555;
+}
+
+.zoom img::selection { background-color: none; }
+
+.img-container {
+  margin-top: 50px;
+}

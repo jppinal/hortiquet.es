@@ -1,0 +1,55 @@
+body {
+  background-color: #fbfceb;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.shopping-page {
+  margin-bottom: 220px;
+}
+
+.navbar-toggle,
+.navbar-left li a,
+.navbar-right li a i,
+.navbar-right li.active a,
+.navbar-left li.active a,
+.navbar-brand h1{
+  color: #333333;
+}
+
+.navbar-right li a .badge{
+  font-weight: 600;
+  background-color: #6da70f;
+  color: #ffffff;
+}
+
+.top-nav-collapse {
+  background: #24242a;
+  height: 60px;
+}
+.top-nav-collapse .navbar-left,
+.top-nav-collapse .navbar-right,
+.top-nav-collapse .navbar-brand{
+  background: #24242a;
+}
+.top-nav-collapse .navbar-brand h1 {
+
+}
+.top-nav-collapse .navbar-brand img {
+
+}
+
+.shopping-page {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+}

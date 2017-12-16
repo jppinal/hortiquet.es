@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="es">
+<head>
+
+	  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="umvelta">
+
+    <title></title>
+
+    <%- include partials/baseCSS.ejs %>
+    <link type="text/css" rel="stylesheet" href="http://cdn.hortiquet.es/assets/css/custom/images.min.css">
+
+    <style>
+    /* styles unrelated to zoom */
+      body { background-color: <%= color %>; }
+      .zoom img { background-color: <%= color %>; }
+    </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 img-container">
+        <span id="image-zoom" class="zoom" style="">
+          <img class="img-responsive" src="<%= src %>"/>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-sm-8 col-sm-offset-2">
+      <h3 class="">
+        <a href="javascript:history.back()">Volver a <%= title %></a>
+      </h3>
+      <small>Pulsa la imagen para hacer zoom.</small>
+    </div>
+  </div>
+
+<%- include partials/baseJS.ejs %>
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/jquery.zoom.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  /*var windowWidth = $(window).width();
+  var windowHeight = $(window).height();
+  var imageRatio = $('#image').height()/$('#image').width();
+
+  if(windowWidth * imageRatio < windowHeight) {
+	   $('#image').css('width',windowWidth);
+     $('#image').css('height',windowWidth * imageRatio);
+  }else{
+    $('#image').css('height',windowHeight);
+    $('#image').css('width',windowHeight / imageRatio);
+  }*/
+  //$(window).resize(function(){'use strict',
+  //  $('#image').css('width',$(window).width());
+  //  $('#image').css('height',$(window).width() * imageRatio);
+	//});
+  $(document).ready(function(){
+    $('#image-zoom').zoom();
+  });
+});
+</script>
+
+</body>
+</html>

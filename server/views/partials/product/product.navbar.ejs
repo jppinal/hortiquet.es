@@ -1,0 +1,26 @@
+
+<!--<div class="main-nav navbar-fixed-top">-->
+<div class="main-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars"></i>
+      </button>-->
+      <div class="nav navbar-brand">
+        <h1><a href="/#products" style="color: #333333"><i class="fa fa-caret-left"></i> <hortiquet>HortiQuet</hortiquet></a> <%= product %></h1> 
+      </div>
+      <ul class="nav navbar-nav navbar-right visible-xs">
+        <li><a href="/shopping" id="sm-cart"><span class="badge">{{cart.getTotalCount()}}</span> <i class="fa fa-shopping-cart"></i></a></li>
+      </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right hidden-xs">
+      <li><a href="/shopping" id="md-cart"><span class="badge">{{cart.getTotalCount()}}</span> <i class="fa fa-shopping-cart"></i></a></li>
+    </ul>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <!--<li class="scroll"><a href="#whatis">Qué es?</a></li>-->
+        <!--<li class="scroll active"><a href="#header"><i class="fa fa-home"></i></a></li>-->
+      </ul>
+    </div>
+  </div>
+</div><!--/#main-nav-->

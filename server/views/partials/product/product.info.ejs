@@ -1,0 +1,48 @@
+
+<div class="row">
+  <div class="row-height">
+    <div class="col-sm-2 col-height hidden-xs">
+      <div class="left-control" style=""><i class="fa fa-angle-left"></i></div>
+    </div>
+    <div class="col-sm-8 col-height">
+
+        <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+          <div class="left-control" style="margin-top: 15px;"><i class="fa fa-angle-left"></i></div>
+        </div>
+        <div class="col-xs-8 col-sm-12" style="text-align: center;">
+          <h1 style="text-align: center;"><%= product.shortname %></h1>
+        </div>
+        <div class="col-xs-2 hidden-sm hidden-md hidden-lg">
+          <div class="right-control" style="margin-top: 15px;"><i class="fa fa-angle-right"></i></div>
+        </div>
+
+      <img src="<%= product.img %>" class="img-responsive">
+    </div>
+    <div class="col-sm-2 col-height hidden-xs">
+      <div class="right-control"><i class="fa fa-angle-right"></i></div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h2>Contenido</h2>
+    <ul class="">
+      <% es.content.forEach(function(content) { %>
+      <li><%= content %></li>
+      <% }); %>
+        <ul>
+          <% product.seedsInfo.forEach(function(seed) { %>
+          <li>Sobre semillas <a href="#" data-toggle="modal" data-target="#<%= seed.name%>">
+            <%= seed.es.name %>
+            (<em><%= seed.genus %> <%= seed.species %></em>)
+          </a></li>
+          <% }); %>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="col-sm-4 text-right">
+    <%- include product.shopping.ejs %>
+  </div>
+</div>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org" lang="es">
+<head>
+
+	  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="hortiquet hortique hotiquet huerto terraza jardin jardín casa hortaliza aromática aromatica tomate lechuga zanahoria judías judias albahaca menta perejil uno duo aroma ensalada balcón balcon agroecología huerto urbano" />
+    <meta name="description" content="Hortiquet, un huerto en tu terraza" />
+    <meta name="author" content="umvelta" />
+    <meta name="google-site-verification" content="ZEYcMP1PDLZjg8xAPL4YJbVhWJA8fkUJncndQAf_pko" />
+
+    <link rel="alternate" hreflang="es-es" href="http://www.hortiquet.es">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <title>HortiQuet</title>
+
+    <%- include partials/baseCSS.ejs %>
+    <link type="text/css" rel="stylesheet" href="http://cdn.hortiquet.es/assets/css/custom/home.min.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://www.hortiquet.es",
+      "logo": "http://www.hortiquet.es/assets/images/logos/hortiquet-logo.png",
+      "sameAs" : [
+        "https://www.instagram.com/hortiquet/",
+        "https://www.facebook.com/hortiquet",
+        "https://twitter.com/hortiquet",
+        "https://hortiquet.tumblr.com",
+        "https://plus.google.com/107432700918595870245"
+      ]
+    }
+    </script>
+
+</head>
+<body ng-app="hortiquet">
+
+<%- include partials/cookie-banner.ejs %>
+
+<div ng-controller="HomeController">
+<%- include partials/navbar.ejs %>
+
+<header id="header" onload="resizeHomeItems()">
+  <%- include partials/home/cover.ejs %>
+</header>
+<section id="whatis">
+  <%- include partials/home/whatis.ejs %>
+</section>
+<section id="quote-ines" class="parallax">
+  <%- include partials/home/quote-ines.ejs %>
+</section>
+<section id="products">
+  <%- include partials/home/products.ejs %>
+</section>
+<section id="forest">
+  <%- include partials/home/forest.ejs %>
+</section>
+<section id="contact" class="parallax">
+  <%- include partials/home/contact.ejs %>
+</section>
+<section id="team">
+  <%- include partials/home/team.ejs %>
+</section>
+
+</div>
+
+<footer id="footer">
+<%- include partials/footer.top.ejs %>
+<%- include partials/footer.bottom.ejs %>
+</footer>
+
+<%- include partials/baseJS.ejs %>
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/Chart.min.js"></script>
+<!-- Custom JavaScript -->
+<script type="text/javascript" src="http://cdn.hortiquet.es/assets/js/custom/home.js"></script>
+
+</body>
+</html>

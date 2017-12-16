@@ -1,0 +1,40 @@
+#forest {
+  background-color: #b8fff8;
+  background-image: url(/assets/images/forest/forest-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#forest .container {
+  text-align: center;
+  padding: 30px;
+  width: 350px;
+}
+
+#forest h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#forest h3 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#forest img.bosques-sostenibles-logo {
+  margin: 0px auto 20px;
+  width: 150px;
+}
+
+#forest #forest-chart {
+  margin: 50px auto;
+}
+
+#forest #forest-chart-info {
+  text-align: center;
+  margin: -160px auto 50px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}

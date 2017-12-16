@@ -1,0 +1,33 @@
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#clockdiv > div{
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#motto {
+  padding: 15px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
